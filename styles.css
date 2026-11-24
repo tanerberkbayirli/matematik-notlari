@@ -190,6 +190,55 @@ body::after {
   100% { transform: rotate(360deg) scale(1); }
 }
 
+@keyframes rippleOut {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.42;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(2.8);
+    opacity: 0;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes modalPopOut {
+  from {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95) translateY(8px);
+  }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 /* Topbar */
 .topbar {
   position: sticky;
@@ -330,6 +379,8 @@ body::after {
 }
 
 .icon-btn {
+  position: relative;
+  overflow: hidden;
   width: 36px;
   height: 36px;
   border-radius: 10px;
@@ -383,7 +434,45 @@ body::after {
   overflow-y: auto;
 }
 
+.topic-nav {
+  position: relative;
+}
+
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  transition: transform 0.34s cubic-bezier(0.22, 1, 0.36, 1), height 0.25s ease, opacity 0.2s ease;
+}
+
+.nav-indicator::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  bottom: 7px;
+  width: 3px;
+  border-radius: 0 3px 3px 0;
+  background: var(--accent);
+  transition: background 0.25s ease;
+}
+
+.nav-indicator.is-after::before {
+  background: var(--after);
+}
+
 .nav-group {
+  position: relative;
+  z-index: 1;
   font-size: 10.5px;
   font-weight: 700;
   text-transform: uppercase;
@@ -398,6 +487,8 @@ body::after {
 
 .nav-item {
   position: relative;
+  z-index: 1;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -414,42 +505,26 @@ body::after {
   border-radius: 10px;
   cursor: pointer;
   margin-bottom: 3px;
-  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease;
+  transition: color 0.22s ease, background 0.18s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.nav-item:hover {
-  background: var(--surface);
-  border-color: var(--border);
-  transform: translateX(3px);
+.nav-item:hover:not(.active) {
+  background: color-mix(in srgb, var(--surface) 65%, transparent);
+  transform: translateX(4px);
+}
+
+.nav-item:active {
+  transform: scale(0.985);
 }
 
 .nav-item.active {
-  background: var(--surface);
-  border-color: var(--border);
   color: var(--accent);
   font-weight: 600;
-  box-shadow: var(--shadow-card);
   transform: translateX(2px);
 }
 
 .nav-item.phase-after.active {
   color: var(--after);
-}
-
-.nav-item.active::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 7px;
-  bottom: 7px;
-  width: 3px;
-  border-radius: 0 3px 3px 0;
-  background: var(--accent);
-  animation: barGrow 0.22s cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-
-.nav-item.phase-after.active::before {
-  background: var(--after);
 }
 
 .nav-left {
@@ -464,10 +539,13 @@ body::after {
   font-size: 11px;
   color: var(--muted);
   flex-shrink: 0;
+  transition: color 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+.nav-item:hover .nav-num,
 .nav-item.active .nav-num {
   color: inherit;
+  transform: scale(1.06);
 }
 
 .nav-label {
@@ -481,6 +559,20 @@ body::after {
   font-size: 11px;
   color: var(--muted);
   flex-shrink: 0;
+  padding: 1px 6px;
+  border-radius: 999px;
+  transition: background 0.22s ease, color 0.22s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.nav-item.active .nav-count {
+  background: var(--accent-soft);
+  color: var(--accent);
+  transform: scale(1.05);
+}
+
+.nav-item.phase-after.active .nav-count {
+  background: var(--after-soft);
+  color: var(--after);
 }
 
 /* Main */
@@ -576,6 +668,7 @@ body::after {
 
 /* Segmented Tabs */
 .tabs {
+  position: relative;
   display: inline-flex;
   gap: 4px;
   padding: 4px;
@@ -586,7 +679,23 @@ body::after {
   box-shadow: var(--shadow-card);
 }
 
+.tab-indicator {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 72%, var(--after)));
+  box-shadow: 0 4px 12px -4px color-mix(in srgb, var(--accent) 55%, transparent);
+  pointer-events: none;
+  z-index: 0;
+  transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1), width 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 .tab {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
   border: none;
   background: transparent;
   color: var(--muted);
@@ -596,22 +705,52 @@ body::after {
   padding: 8px 18px;
   border-radius: 8px;
   cursor: pointer;
-  transition: color 0.18s ease, background 0.22s ease, transform 0.18s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease;
+  transition: color 0.22s ease, transform 0.16s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.tab:hover {
+.tab:hover:not(.active) {
   color: var(--text);
-  background: var(--surface-soft);
 }
 
 .tab:active {
-  transform: scale(0.97);
+  transform: scale(0.96);
 }
 
 .tab.active {
-  background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 72%, var(--after)));
   color: #fff;
-  box-shadow: 0 4px 12px -4px color-mix(in srgb, var(--accent) 55%, transparent);
+}
+
+.tab-body.slide-from-right {
+  animation: slideFromRight 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.tab-body.slide-from-left {
+  animation: slideFromLeft 0.28s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.tab-body.topic-enter {
+  animation: riseIn 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Click Ripple */
+.ripple {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0);
+  animation: rippleOut 0.52s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.tab.active .ripple,
+.btn.is-open .ripple {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.nav-item.phase-after .ripple {
+  background: color-mix(in srgb, var(--after) 28%, transparent);
 }
 
 /* Section Heading */
@@ -694,6 +833,8 @@ body::after {
 }
 
 .btn {
+  position: relative;
+  overflow: hidden;
   border: 1px solid var(--border);
   background: var(--surface-soft);
   color: var(--text);
@@ -1090,6 +1231,14 @@ body::after {
   overflow: hidden;
   box-shadow: var(--shadow-float);
   animation: modalPop 0.26s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.modal.is-closing .modal-backdrop {
+  animation: fadeOut 0.18s ease forwards;
+}
+
+.modal.is-closing .modal-card {
+  animation: modalPopOut 0.18s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 .modal-head {

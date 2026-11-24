@@ -9,7 +9,8 @@
     activeTab: 'questions', // 'questions' | 'lesson'
     searchQuery: '',
     openAnswers: new Set(),
-    openSteps: new Set()
+    openSteps: new Set(),
+    renderedTopicId: null
   };
 
   const topicNav = document.getElementById('topicNav');
@@ -27,6 +28,9 @@
   const closeModalBtn = document.getElementById('closeModalBtn');
   const modalImg = document.getElementById('modalImg');
   const modalTitle = document.getElementById('modalTitle');
+
+  let navIndicator = null;
+  let modalCloseTimer = null;
 
   // Tema
   if (localStorage.getItem(THEME_KEY) === 'dark') {
@@ -50,6 +54,25 @@
     themeToggle.classList.add('is-spinning');
   });
 
+  // Tıklama Dalga (Ripple) Efekti
+  function spawnRipple(target, clientX, clientY) {
+    if (!target) return;
+    const rect = target.getBoundingClientRect();
+    const x = clientX ? clientX - rect.left : rect.width / 2;
+    const y = clientY ? clientY - rect.top : rect.height / 2;
+    const ripple = document.createElement('span');
+    ripple.className = 'ripple';
+    ripple.style.left = `${x}px`;
+    ripple.style.top = `${y}px`;
+    target.appendChild(ripple);
+    ripple.addEventListener('animationend', () => ripple.remove(), { once: true });
+  }
+
+  document.addEventListener('pointerdown', (e) => {
+    const target = e.target.closest('.nav-item, .tab, .btn, .icon-btn');
+    if (target) spawnRipple(target, e.clientX, e.clientY);
+  });
+
   function updateScrollProgress() {
     if (!scrollProgress) return;
     const doc = document.documentElement;
@@ -59,7 +82,11 @@
   }
 
   window.addEventListener('scroll', updateScrollProgress, { passive: true });
-  window.addEventListener('resize', updateScrollProgress, { passive: true });
+  window.addEventListener('resize', () => {
+    updateScrollProgress();
+    moveNavIndicator(false);
+    moveTabIndicator(false);
+  }, { passive: true });
 
   // Mobil menü
   function closeSidebar() {
@@ -71,6 +98,7 @@
     const open = !sidebar.classList.contains('open');
     sidebar.classList.toggle('open', open);
     sidebarBackdrop.classList.toggle('hidden', !open);
+    if (open) requestAnimationFrame(() => moveNavIndicator(false));
   });
 
   sidebarBackdrop.addEventListener('click', closeSidebar);
@@ -91,18 +119,33 @@
     } catch (_) {}
   }
 
-  window.addEventListener('load', () => renderMath(mainContent));
+  window.addEventListener('load', () => {
+    renderMath(mainContent);
+    moveNavIndicator(false);
+    moveTabIndicator(false);
+  });
 
-  // Modal
+  // Modal (Animasyonlu açılış & kapanış)
   function openModal(src, title) {
+    if (modalCloseTimer) {
+      clearTimeout(modalCloseTimer);
+      modalCloseTimer = null;
+    }
+    imageModal.classList.remove('is-closing');
     modalImg.src = encodeURI(src);
     modalTitle.textContent = title || 'Defter Sayfası';
     imageModal.classList.remove('hidden');
   }
 
   function closeModal() {
-    imageModal.classList.add('hidden');
-    modalImg.src = '';
+    if (imageModal.classList.contains('hidden') || imageModal.classList.contains('is-closing')) return;
+    imageModal.classList.add('is-closing');
+    modalCloseTimer = setTimeout(() => {
+      imageModal.classList.add('hidden');
+      imageModal.classList.remove('is-closing');
+      modalImg.src = '';
+      modalCloseTimer = null;
+    }, 180);
   }
 
   modalBackdrop.addEventListener('click', closeModal);
@@ -115,8 +158,35 @@
     return QUESTIONS.filter((q) => q.topicId === topicId);
   }
 
-  // Sol Menü
-  function renderSidebar() {
+  // Sol Menü (Kayan Pill Göstergeli)
+  function moveNavIndicator(animate = true) {
+    if (!navIndicator) return;
+    const activeBtn = topicNav.querySelector('.nav-item.active');
+    if (!activeBtn) {
+      navIndicator.style.opacity = '0';
+      return;
+    }
+    if (!animate) navIndicator.style.transition = 'none';
+    navIndicator.classList.toggle('is-after', activeBtn.classList.contains('phase-after'));
+    navIndicator.style.height = `${activeBtn.offsetHeight}px`;
+    navIndicator.style.transform = `translateY(${activeBtn.offsetTop}px)`;
+    navIndicator.style.opacity = '1';
+    if (!animate) {
+      void navIndicator.offsetHeight;
+      navIndicator.style.transition = '';
+    }
+  }
+
+  function updateSidebarActive() {
+    const isSearching = Boolean(state.searchQuery.trim());
+    topicNav.querySelectorAll('.nav-item').forEach((btn) => {
+      const active = !isSearching && btn.dataset.topic === state.activeTopicId;
+      btn.classList.toggle('active', active);
+    });
+    moveNavIndicator(true);
+  }
+
+  function initSidebar() {
     const before = TOPICS.filter((t) => t.phase === 'before');
     const after = TOPICS.filter((t) => t.phase === 'after');
 
@@ -135,21 +205,52 @@
     };
 
     topicNav.innerHTML = `
+      <div class="nav-indicator" aria-hidden="true"></div>
       <div class="nav-group">Sınav Öncesi</div>
       ${before.map(itemHtml).join('')}
       <div class="nav-group">Sınav Sonrası</div>
       ${after.map(itemHtml).join('')}
     `;
 
+    navIndicator = topicNav.querySelector('.nav-indicator');
+
     topicNav.querySelectorAll('.nav-item').forEach((btn) => {
       btn.addEventListener('click', () => {
+        const nextTopic = btn.dataset.topic;
+        const wasSearching = Boolean(state.searchQuery.trim());
         searchInput.value = '';
         state.searchQuery = '';
-        state.activeTopicId = btn.dataset.topic;
+        if (state.activeTopicId === nextTopic && !wasSearching) {
+          closeSidebar();
+          return;
+        }
+        state.activeTopicId = nextTopic;
         closeSidebar();
-        renderAll();
+        updateSidebarActive();
+        renderMain();
+        if (window.scrollY > 120) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
       });
     });
+
+    requestAnimationFrame(() => moveNavIndicator(false));
+  }
+
+  // Sekme Kayan Pill Göstergesi
+  function moveTabIndicator(animate = true) {
+    const tabsEl = mainContent.querySelector('.tabs');
+    if (!tabsEl) return;
+    const indicator = tabsEl.querySelector('.tab-indicator');
+    const activeTab = tabsEl.querySelector('.tab.active');
+    if (!indicator || !activeTab) return;
+    if (!animate) indicator.style.transition = 'none';
+    indicator.style.width = `${activeTab.offsetWidth}px`;
+    indicator.style.transform = `translateX(${activeTab.offsetLeft}px)`;
+    if (!animate) {
+      void indicator.offsetWidth;
+      indicator.style.transition = '';
+    }
   }
 
   // Soru Kartı
@@ -199,10 +300,94 @@
     `;
   }
 
+  function buildTopicBodyHtml(topic, qs, lesson) {
+    if (state.activeTab === 'questions') {
+      const groups = [];
+      const map = new Map();
+      qs.forEach((q) => {
+        if (!map.has(q.section)) {
+          const arr = [];
+          map.set(q.section, arr);
+          groups.push({ section: q.section, items: arr });
+        }
+        map.get(q.section).push(q);
+      });
+
+      let counter = 1;
+      let cardIdx = 0;
+      return groups.map((g) => `
+        <div class="section-title">${g.section}</div>
+        <div class="q-list">
+          ${g.items.map((q) => renderQuestionCard(q, `Soru ${counter++}`, cardIdx++)).join('')}
+        </div>
+      `).join('');
+    }
+
+    return `
+      <div class="callout-tip">${lesson.summary}</div>
+      ${lesson.sections.map((sec, idx) => `
+        <section class="lesson-block" style="--i: ${idx}">
+          <h3>${sec.title}</h3>
+          <div>${sec.body}</div>
+        </section>
+      `).join('')}
+      <section class="lesson-block" style="--i: ${lesson.sections.length}">
+        <h3>Defter Fotoğrafları</h3>
+        <div class="source-links">
+          ${topic.sourceImages.map((src, i) => `
+            <button class="btn open-img" data-src="${src}" data-title="${topic.title} — Sayfa ${i + 1}">
+              Sayfa ${i + 1}
+            </button>
+          `).join('')}
+        </div>
+      </section>
+    `;
+  }
+
+  function bindBodyInteractions(container) {
+    container.querySelectorAll('.open-img').forEach((btn) => {
+      btn.addEventListener('click', () => openModal(btn.dataset.src, btn.dataset.title));
+    });
+    attachQuestionEvents(container);
+    renderMath(container);
+    updateScrollProgress();
+  }
+
+  function switchTabSmooth(nextTab) {
+    if (state.activeTab === nextTab) return;
+    const prevTab = state.activeTab;
+    state.activeTab = nextTab;
+
+    const tabsEl = mainContent.querySelector('.tabs');
+    const bodyEl = mainContent.querySelector('.tab-body');
+    if (!tabsEl || !bodyEl) {
+      renderMain();
+      return;
+    }
+
+    tabsEl.querySelectorAll('.tab').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.tab === nextTab);
+    });
+    moveTabIndicator(true);
+
+    const topic = TOPICS.find((t) => t.id === state.activeTopicId) || TOPICS[0];
+    const qs = getTopicQuestions(topic.id);
+    const lesson = LESSONS[topic.id];
+
+    const animClass = prevTab === 'questions' && nextTab === 'lesson' ? 'slide-from-right' : 'slide-from-left';
+    bodyEl.classList.remove('slide-from-right', 'slide-from-left', 'topic-enter');
+    bodyEl.innerHTML = buildTopicBodyHtml(topic, qs, lesson);
+    void bodyEl.offsetWidth;
+    bodyEl.classList.add(animClass);
+
+    bindBodyInteractions(bodyEl);
+  }
+
   // Ana İçerik
   function renderMain() {
     const query = state.searchQuery.trim().toLowerCase();
     if (query) {
+      state.renderedTopicId = null;
       const matches = QUESTIONS.filter((q) => {
         const topic = TOPICS.find((t) => t.id === q.topicId);
         const hay = [q.section, q.prompt, q.answer, topic?.title || '', ...q.steps.map((s) => `${s.title} ${s.detail}`)].join(' ').toLowerCase();
@@ -233,14 +418,16 @@
     const topic = TOPICS.find((t) => t.id === state.activeTopicId) || TOPICS[0];
     const qs = getTopicQuestions(topic.id);
     const lesson = LESSONS[topic.id];
+    state.renderedTopicId = topic.id;
 
-    const headHtml = `
+    mainContent.innerHTML = `
       <div class="page-head ${topic.phase === 'after' ? 'is-after' : ''}">
         <div class="page-kicker">${topic.phaseLabel}</div>
         <h1>${topic.title}</h1>
         <p>${topic.subtitle}</p>
       </div>
       <div class="tabs">
+        <div class="tab-indicator" aria-hidden="true"></div>
         <button class="tab ${state.activeTab === 'questions' ? 'active' : ''}" data-tab="questions">
           Sorular (${qs.length})
         </button>
@@ -248,67 +435,17 @@
           Konu Anlatımı
         </button>
       </div>
+      <div class="tab-body topic-enter">
+        ${buildTopicBodyHtml(topic, qs, lesson)}
+      </div>
     `;
 
-    let bodyHtml = '';
-    if (state.activeTab === 'questions') {
-      const groups = [];
-      const map = new Map();
-      qs.forEach((q) => {
-        if (!map.has(q.section)) {
-          const arr = [];
-          map.set(q.section, arr);
-          groups.push({ section: q.section, items: arr });
-        }
-        map.get(q.section).push(q);
-      });
-
-      let counter = 1;
-      let cardIdx = 0;
-      bodyHtml = groups.map((g) => `
-        <div class="section-title">${g.section}</div>
-        <div class="q-list">
-          ${g.items.map((q) => renderQuestionCard(q, `Soru ${counter++}`, cardIdx++)).join('')}
-        </div>
-      `).join('');
-    } else {
-      bodyHtml = `
-        <div class="callout-tip">${lesson.summary}</div>
-        ${lesson.sections.map((sec, idx) => `
-          <section class="lesson-block" style="--i: ${idx}">
-            <h3>${sec.title}</h3>
-            <div>${sec.body}</div>
-          </section>
-        `).join('')}
-        <section class="lesson-block" style="--i: ${lesson.sections.length}">
-          <h3>Defter Fotoğrafları</h3>
-          <div class="source-links">
-            ${topic.sourceImages.map((src, i) => `
-              <button class="btn open-img" data-src="${src}" data-title="${topic.title} — Sayfa ${i + 1}">
-                Sayfa ${i + 1}
-              </button>
-            `).join('')}
-          </div>
-        </section>
-      `;
-    }
-
-    mainContent.innerHTML = headHtml + bodyHtml;
-
     mainContent.querySelectorAll('.tab').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        state.activeTab = btn.dataset.tab;
-        renderMain();
-      });
+      btn.addEventListener('click', () => switchTabSmooth(btn.dataset.tab));
     });
 
-    mainContent.querySelectorAll('.open-img').forEach((btn) => {
-      btn.addEventListener('click', () => openModal(btn.dataset.src, btn.dataset.title));
-    });
-
-    attachQuestionEvents(mainContent);
-    renderMath(mainContent);
-    updateScrollProgress();
+    requestAnimationFrame(() => moveTabIndicator(false));
+    bindBodyInteractions(mainContent);
   }
 
   function updateSingleQuestionCard(cardEl, qId) {
@@ -344,15 +481,12 @@
     });
   }
 
-  function renderAll() {
-    renderSidebar();
-    renderMain();
-  }
-
   searchInput.addEventListener('input', () => {
     state.searchQuery = searchInput.value;
-    renderAll();
+    updateSidebarActive();
+    renderMain();
   });
 
-  renderAll();
+  initSidebar();
+  renderMain();
 })();
