@@ -9,7 +9,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 7 — Özdeşlik Çarpımları',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: '7a) $(x + y)(x - y)$ çarpımını özdeşlik olarak açınız.',
     answer: '$x^2 - y^2$',
     steps: [
@@ -21,7 +21,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 7 — Özdeşlik Çarpımları',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: '7b) $(2x - y)(2x + y)$ çarpımını hesaplayınız.',
     answer: '$4x^2 - y^2$',
     steps: [
@@ -33,7 +33,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 7 — Özdeşlik Çarpımları',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: '7c) $(x + y)(x^2 - xy + y^2)$ çarpımının sonucunu bulunuz.',
     answer: '$x^3 + y^3$',
     steps: [
@@ -46,7 +46,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 7 — Özdeşlik Çarpımları',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '7ç) $(x - y)(x^2 + xy + y^2)$ çarpımının sonucunu bulunuz.',
     answer: '$x^3 - y^3$',
     steps: [
@@ -58,7 +58,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 7 — Özdeşlik Çarpımları',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '7d) $(x + 1)(x^3 - x^2 + x - 1)$ çarpımını hesaplayınız.',
     answer: '$x^4 - 1$',
     steps: [
@@ -71,7 +71,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 7 — Özdeşlik Çarpımları',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '7e) $(x - 1)(x^4 + x^3 + x^2 + x + 1)$ çarpımını hesaplayınız.',
     answer: '$x^5 - 1$',
     steps: [
@@ -84,7 +84,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Bölüm 2.4 — Tam Kareye Tamamlama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: 'Not Örnekleri: $x^2 - 4x + \\square$ ve $x^2 + 10x + \\square$ ifadelerinin tam kare olması için boşluklara ne gelmelidir?',
     answer: '$4$ ve $25$',
     steps: [
@@ -96,7 +96,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Bölüm 2.4 — Tam Kareye Tamamlama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: 'a) $a^2 - 6ab + x$ ifadesinin tam kare olması için $x$ ne olmalıdır?',
     answer: '$x = 9b^2$',
     steps: [
@@ -109,7 +109,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Bölüm 2.4 — Tam Kareye Tamamlama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: 'b) $a^2 - 4b^2a - x$ ifadesinin tam kare olması için $x$ ne olmalıdır?',
     answer: '$x = -4b^4$',
     steps: [
@@ -122,7 +122,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Bölüm 2.4 — Tam Kareye Tamamlama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: 'c) $m^2 + \\dfrac{1}{2}mn + x$ ifadesinin tam kare olması için $x$ ne olmalıdır?',
     answer: '$x = \\dfrac{n^2}{16}$',
     steps: [
@@ -135,7 +135,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Bölüm 2.4 — Tam Kareye Tamamlama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: 'ç) $m^4 - \\dfrac{1}{4}m^2n^4 + x$ (veya $-x$ durumunda $-\\dfrac{n^8}{64}$) ifadesinin tam kare olması için $x$ nedir?',
     answer: '$x = \\dfrac{n^8}{64}$ (ifade $-x$ ise $-\\dfrac{n^8}{64}$)',
     note: 'Defterde sol tarafta +x yazılıp cevapta -n^8/64 belirtilmiş (soru kökünde -x olması durumu için). Tam kareyi sağlayan sabit terim daima +n^8/64’tür.',
@@ -150,7 +150,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 2 — Kesir Sadeleştirme',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '2a) $\\dfrac{a^2 - b^2}{a - b}$ ifadesini sadeleştiriniz ($a \\neq b$).',
     answer: '$a + b$',
     steps: [
@@ -162,7 +162,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 2 — Kesir Sadeleştirme',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '2b) $\\dfrac{a - b}{\\sqrt{a} - \\sqrt{b}}$ ifadesini sadeleştiriniz ($a,b \\ge 0, a \\neq b$).',
     answer: '$\\sqrt{a} + \\sqrt{b}$',
     steps: [
@@ -175,7 +175,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 2 — Kesir Sadeleştirme',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '2c) $\\dfrac{a^3 - b^3}{a - b}$ ifadesini sadeleştiriniz ($a \\neq b$).',
     answer: '$a^2 + ab + b^2$',
     steps: [
@@ -187,7 +187,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 2 — Kesir Sadeleştirme',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '2g) $\\dfrac{8x^3 - 1}{2x - 1}$ ifadesini sadeleştiriniz ($x \\neq 1/2$).',
     answer: '$4x^2 + 2x + 1$',
     steps: [
@@ -201,7 +201,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 3 — Özdeşlikle Bölünebilme',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
     prompt: '3a) $n \\in \\mathbb{N}$ için $n^3 - n$ ifadesinin $6$’ya kalansız bölündüğünü kullanarak $n^3 + 5n$, $n^3 - 19n$, $n^3 + 11n$ ve $n^5 - 25n$ ifadelerinin $6$’ya kalansız bölünüp bölünmediğini gösteriniz.',
     answer: 'Dördü de $6$’ya kalansız bölünür.',
     steps: [
@@ -216,7 +216,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 4 — Özdeşlikle Pratik Hesap',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '4a) $69 \\cdot 71$ çarpımını iki kare farkı özdeşliği kullanarak hesaplayınız.',
     answer: '$4899$',
     steps: [
@@ -228,7 +228,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 4 — Özdeşlikle Pratik Hesap',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '4b) $89^2$ işlemini tam kare özdeşliği ile hesaplayınız.',
     answer: '$7921$',
     steps: [
@@ -240,7 +240,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 4 — Özdeşlikle Pratik Hesap',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '4g) $164^2 - 136^2$ işlemini hesaplayınız.',
     answer: '$8400$',
     steps: [
@@ -253,7 +253,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 6 — Paydayı Rasyonel Yapma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '6a) $\\dfrac{2}{\\sqrt{5} + 2}$ kesrinin paydasını rasyonel yapınız.',
     answer: '$2(\\sqrt{5} - 2)$',
     steps: [
@@ -265,7 +265,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 6 — Paydayı Rasyonel Yapma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '6b) $\\dfrac{5}{\\sqrt{3} + \\sqrt{2}}$ kesrinin paydasını rasyonel yapınız.',
     answer: '$5(\\sqrt{3} - \\sqrt{2})$',
     steps: [
@@ -277,7 +277,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Soru 6 — Paydayı Rasyonel Yapma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '6d) $\\dfrac{3}{\\sqrt[3]{2} - 1}$ kesrinin paydasını rasyonel yapınız.',
     answer: '$3(\\sqrt[3]{4} + \\sqrt[3]{2} + 1)$',
     steps: [
@@ -291,7 +291,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Üç Terimli Çarpanlara Ayırma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '6a) $2x^2 + x - 3$ polinomunu çarpanlarına ayırınız.',
     answer: '$(2x + 3)(x - 1)$',
     steps: [
@@ -304,7 +304,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
     section: 'Üç Terimli Çarpanlara Ayırma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '6b) $3x^2 + 2x - 1$ polinomunu çarpanlarına ayırınız.',
     answer: '$(3x - 1)(x + 1)$',
     steps: [
@@ -321,7 +321,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Polinomlarda Bölme (Giriş)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '$(2x - 1)$ polinomunun $(x + 2)$ ile bölümünden bölümü ve kalanı bulup $A = B\\cdot C + K$ şeklinde yazınız.',
     answer: '$2x - 1 = 2(x + 2) - 5$',
     steps: [
@@ -335,7 +335,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Polinomlarda Bölme (Giriş)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: '$(2x^2 - 3x - 3)$ polinomunu $(x - 2)$ ile bölüp $A = B\\cdot C + K$ eşitliğini yazınız.',
     answer: '$2x^2 - 3x - 3 = (x - 2)(2x + 1) - 1$',
     steps: [
@@ -349,7 +349,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Kalan Bulma Örneği',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
     prompt: 'Örn: $2x^2 - 3x - 3$ polinomunun $x - 2$ ile bölümünden kalanı kısa yoldan bulunuz.',
     answer: '$-1$',
     steps: [
@@ -362,7 +362,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Uzun Bölme Örneği',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '$(4x^3 - 6x^2 + 3x + 4)$ polinomunun $(2x^2 - 5x + 1)$ polinomuna bölümünden Bölüm ve Kalanı bulunuz.',
     answer: 'Bölüm: $2x + 2$, Kalan: $11x + 2$',
     steps: [
@@ -376,7 +376,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Giriş',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: 'Bölüm 2.5 a) $P_1(x) = 3x - 2$ polinomu için $x = 0$ değeri ve $P_1(x) = 0$ kökü nedir?',
     answer: '$P_1(0) = -2$, kök $x = \\dfrac{2}{3}$',
     steps: [
@@ -389,7 +389,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 4 (İşlemler)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '4a) $(4x - 3) + (3x + 4) - (5x - 6)$ işlemini yapınız.',
     answer: '$2x + 7$',
     steps: [
@@ -402,7 +402,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 4 (İşlemler)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '4b) $(3x^2 - 5x - 30) - (10x^2 - 3x - 14) + (4x^3 + 7x^2 + 2x + 16)$ işlemini yapınız.',
     answer: '$4x^3$',
     steps: [
@@ -415,7 +415,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 4 (İşlemler)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '4c) $5(2x - 1) - 3(3x + 1) - x + 8$ işlemini yapınız.',
     answer: '$0$',
     steps: [
@@ -428,7 +428,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 4 (İşlemler)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '4d) $(2x - 1)(x^2 + 3x - 1)$ çarpımını hesaplayınız.',
     answer: '$2x^3 + 5x^2 - 5x + 1$',
     note: 'Defterde -1 ile çarpılırken işaretler (+x^2 + 3x - 1 şeklinde) kaymış ve 2x^3 + 7x^2 + x - 1 yazılmıştır; doğru çarpım 2x^3 + 5x^2 - 5x + 1’dir.',
@@ -443,7 +443,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 5 (Bölme Eşitlikleri)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '5a) $(3x - 1)$ polinomunu $(x + 2)$’ye bölüp $A = B\\cdot C + K$ şeklinde yazınız.',
     answer: '$3x - 1 = 3(x + 2) - 7$',
     steps: [
@@ -456,7 +456,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 5 (Bölme Eşitlikleri)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '5b) $(4x^2 - 3x - 3)$ polinomunu $(x - 3)$’e bölüp $A = B\\cdot C + K$ şeklinde yazınız.',
     answer: '$4x^2 - 3x - 3 = (x - 3)(4x + 9) + 24$',
     steps: [
@@ -470,7 +470,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 5 (Bölme Eşitlikleri)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '5c) $(2x^2 - 3x + 4)$ polinomunu $(x - 4)$’e bölüp $A = B\\cdot C + K$ şeklinde yazınız.',
     answer: '$2x^2 - 3x + 4 = (x - 4)(2x + 5) + 24$',
     steps: [
@@ -484,7 +484,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'polinomlar',
     phase: 'before',
     section: 'Bölüm 2.5 — Soru 5 (Bölme Eşitlikleri)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg',
     prompt: '5ç) $(3x^3 - 6x^2 + 3x + 4)$ polinomunu $(x^2 + 5x + 1)$’e bölüp $A = B\\cdot C + K$ şeklinde yazınız.',
     answer: '$3x^3 - 6x^2 + 3x + 4 = (x^2 + 5x + 1)(3x - 21) + 105x + 25$',
     note: 'Defterde son çıkarma adımında -105x işaret değiştirilmeden -105x+25 yazılmıştır; çıkarma gereği (-(-105x)) = +105x olur, yani kalan 105x + 25’tir.',
@@ -503,7 +503,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Denklemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: 'f) $\\dfrac{1}{3x - 1} = \\dfrac{3}{2(x + 6)}$ denklemini çözünüz.',
     answer: '$x = \\dfrac{15}{7}$',
     note: 'Defterde 9x - 3 = 2x + 12 sonrasında 9x - 2x sehven 7x yazılıp sonda 15/17 yazılmıştır; doğrusu 15/7’dir.',
@@ -517,7 +517,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Denklemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: 'h) $\\dfrac{6 - x}{x - 5} - 6 = \\dfrac{1}{x - 5}$ denkleminin çözüm kümesini bulunuz.',
     answer: '$\\text{Ç.K.} = \\emptyset$',
     steps: [
@@ -530,7 +530,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Parametreli Denklemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: 'j) $\\dfrac{x + a}{b} + \\dfrac{b - x}{a} = 2$ ($a \\neq 0,\\ b \\neq 0,\\ a \\neq b$) denkleminde $x$’i bulunuz.',
     answer: '$x = b - a$',
     steps: [
@@ -544,7 +544,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Sayı Problemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '5) Bir sayının $\\dfrac{1}{2}$’sinin $\\dfrac{3}{7}$’sinin $\\dfrac{3}{5}$’i $90$ ise, bu sayı kaçtır?',
     answer: '$700$',
     steps: [
@@ -557,7 +557,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Kesir Problemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '6) İlkinin parasının önce $\\dfrac{1}{5}$’ini, sonra kalan parasının $\\dfrac{3}{8}$’ini harcayınca $300.000$ TL kalır. Harcamadan önce kaç lirası vardı?',
     answer: '$600.000$ TL',
     note: 'Defterde 300.000 sayısı bilimsel gösterimde sehven 3·10^6 yazılmış; 300.000 = 3·10^5 olduğundan cevap 6·10^5 = 600.000 TL’dir.',
@@ -572,7 +572,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Geometri Problemi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '9) İkizkenar üçgenin kenar uzunluğu taban uzunluğunun iki katıdır. Üçgenin çevresi $80$ cm ise taban uzunluğu kaçtır?',
     answer: '$16$ cm',
     steps: [
@@ -585,7 +585,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Ardışık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '12) Ardışık gelen iki tam sayının çarpımı, bunlardan sonra gelen iki tam sayının çarpımından $46$ kadar küçüktür. Sayıları bulunuz.',
     answer: '$10$ ve $11$ (sonraki ikili $12$ ve $13$)',
     steps: [
@@ -600,7 +600,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Soru 13 — Mutlak Değerli Denklemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '13a) $|x + 3| = 2$ denklemini çözünüz.',
     answer: '$\\text{Ç.K.} = \\{-5,\\ -1\\}$',
     steps: [
@@ -612,7 +612,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Soru 13 — Mutlak Değerli Denklemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
     prompt: '13c) $|x + 1| + |x - 2| = 0$ denkleminin çözüm kümesini bulunuz.',
     answer: '$\\text{Ç.K.} = \\emptyset$',
     steps: [
@@ -625,7 +625,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Soru 13 — Mutlak Değerli Denklemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
     prompt: '13d) $|2x - 5| = x - 1$ denklemini çözünüz.',
     answer: '$\\text{Ç.K.} = \\{2,\\ 4\\}$',
     steps: [
@@ -638,7 +638,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Soru 13 — Mutlak Değerli Denklemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
     prompt: '13f) $\\left|\\dfrac{x}{2} + 1\\right| = 2 - x$ denklemini çözünüz.',
     answer: '$\\text{Ç.K.} = \\left\\{\\dfrac{2}{3}\\right\\}$',
     note: 'Dikkat! Defterde x = 2/3 ve x = 6 bulunmuştur; ancak x = 6 için sağ taraf 2 - 6 = -4 < 0 olacağından x = 6 yalancı köktür ve elenmelidir!',
@@ -654,7 +654,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Bölüm 3.2 — 2. Derece Problemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
     prompt: '9) Çevresi $14$ cm, köşegeni $5$ cm olan dikdörtgenin kenar uzunlukları kaçtır?',
     answer: '$3$ cm ve $4$ cm',
     steps: [
@@ -668,7 +668,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'denklemler-mutlak-problemler',
     phase: 'before',
     section: 'Bölüm 3.2 — Akıntı Problemi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg',
     prompt: '10) Nehir kıyısındaki iki kent arası uzaklık $80$ km’dir. Gemi bu yolu $8$ saat $20$ dakikada gidip geri döner. Nehrin akıntı hızı $4$ km/saat ise, geminin durgun sudaki hızı nedir?',
     answer: '$20$ km/saat',
     steps: [
@@ -688,7 +688,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Denklem Sistemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: 'a) $\\begin{cases} x + y = 3 \\\\ x - y = 5 \\end{cases}$ denklem sistemini çözünüz.',
     answer: '$\\text{Ç.K.} = \\{(4,\\ -1)\\}$',
     steps: [
@@ -701,7 +701,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Denklem Sistemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: 'b) $\\begin{cases} x + 2y = 5 \\\\ 3x - y = 5 \\end{cases}$ denklem sistemini çözünüz.',
     answer: '$x = \\dfrac{15}{7},\\ y = \\dfrac{10}{7}$',
     steps: [
@@ -714,7 +714,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Denklem Sistemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: 'c) $\\begin{cases} x + y = 4 \\\\ x + 2y = 6 \\end{cases}$ denklem sistemini çözünüz.',
     answer: '$x = 2,\\ y = 2$',
     steps: [
@@ -727,7 +727,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Denklem Sistemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: 'ç) $\\begin{cases} x - 2y = 0 \\\\ x + y = 3 \\end{cases}$ denklem sistemini çözünüz.',
     answer: '$x = 2,\\ y = 1$',
     steps: [
@@ -740,7 +740,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Denklem Sistemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: 'd) $\\begin{cases} x - 4y = -3 \\\\ x + 5y = 6 \\end{cases}$ denklem sistemini çözünüz.',
     answer: '$x = 1,\\ y = 1$',
     steps: [
@@ -753,7 +753,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Denklem Sistemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: 'r) $\\begin{cases} x - 5y = 10 \\\\ 3x - 2y = -9 \\end{cases}$ denklem sistemini çözünüz.',
     answer: '$x = -5,\\ y = -3$',
     note: 'Defterde 13y = -39 bulunduktan sonra işaret unutularak y = 3 ve x = 25 yazılmıştır; -39/13 = -3 ve x = 10 + 5(-3) = -5’tir.',
@@ -768,7 +768,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Problemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: '5) Biri diğerinin on katı olan iki sayının farkı $81$ ise, sayılar kaçtır?',
     answer: '$90$ ve $9$',
     steps: [
@@ -781,7 +781,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Problemler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: '6) Farkı $3$ olan iki sayıdan birincisinin yedi katı ile ikincisinin dört katının toplamı $76$ ise, sayılar kaçtır?',
     answer: '$8$ ve $5$',
     steps: [
@@ -794,7 +794,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.3 — Kesirli Sistem',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
     prompt: 'ü) $\\begin{cases} \\dfrac{1}{5}x + \\dfrac{1}{3}y = 2 \\\\ \\dfrac{2}{3}x - \\dfrac{4}{5}y = \\dfrac{14}{15} \\end{cases}$ denklem sistemini çözünüz.',
     answer: '$x = 5,\\ y = 3$',
     note: 'Defterde 5y = 15 elde edildikten sonra altına sehven y = 2 yazılmıştır; 15/5 = 3 olmalıdır.',
@@ -810,7 +810,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.4 (Sayfa 117–118) — Eşitsizlikler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
     prompt: 'c) $6x + 5 \\ge -1$ (defterde $6x \\ge -6$) eşitsizliğinin çözüm aralığını bulunuz.',
     answer: '$x \\ge -1 \\implies [-1,\\ \\infty)$',
     note: 'Defterde ilk satırda -1’in eksisi silik görünmekle birlikte hemen altında 6x ≥ -6 ve [-1, ∞) olarak çözülmüştür.',
@@ -824,7 +824,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.4 — Eşitsizlikler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
     prompt: 'g) $\\dfrac{2x}{5} - \\dfrac{4x}{3} > 14$ eşitsizliğini çözünüz.',
     answer: '$x < -15 \\implies (-\\infty,\\ -15)$',
     note: 'Defterde x < -15 doğru bulunup sayı doğrusunda -15 işaretlenmiş, ancak en alt aralıkta eksi unutularak (-∞, 15) yazılmıştır; doğrusu (-∞, -15)’tir.',
@@ -839,7 +839,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.4 — Soru 2 (En Büyük Tam Sayı)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
     prompt: '2a) $\\dfrac{9x}{5} + 0{,}1 > \\dfrac{8x + 15}{2} - \\dfrac{6x - 1}{5}$ eşitsizliğinin en büyük tam sayı çözümünü bulunuz.',
     answer: '$-8$ ($x < -7{,}6$)',
     steps: [
@@ -853,7 +853,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.4 — Soru 4 (Eşitsizlik Sistemleri)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
     prompt: '4a) $\\begin{cases} 3x - 7 > 0 \\\\ 2x + 3 < 0 \\end{cases}$ eşitsizlik sisteminin çözüm kümesini bulunuz.',
     answer: '$\\text{Ç.K.} = \\emptyset$',
     steps: [
@@ -866,7 +866,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.4 — Soru 4 (Eşitsizlik Sistemleri)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
     prompt: '4b) $\\begin{cases} 4x - 3 < 2x + 5 \\\\ x + 3 > 6 - 2x \\end{cases}$ eşitsizlik sisteminin çözüm kümesini bulunuz.',
     answer: '$(1,\\ 4)$',
     note: 'Defterde Ç.K. = {1, 4} küme parantezi ile gösterilmiş; sayı doğrusunda içleri boş çizildiğinden açık aralık (1, 4) olmalıdır.',
@@ -881,7 +881,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.4 — Soru 8',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
     prompt: '8a) $-17 < 5 - 3x < 11{,}6$ eşitsizliğini çözünüz.',
     answer: '$-2{,}2 < x < \\dfrac{22}{3} \\implies \\left(-2{,}2,\\ \\dfrac{22}{3}\\right)$',
     steps: [
@@ -894,7 +894,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'sistemler-ve-esitsizlikler',
     phase: 'before',
     section: 'Bölüm 3.4 — Soru 8',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg',
     prompt: '8e) $-\\dfrac{1}{3} < \\dfrac{2}{3} - \\dfrac{5}{x} < \\dfrac{1}{4}$ eşitsizliğini çözünüz.',
     answer: '$5 < x < 12 \\implies (5,\\ 12)$',
     steps: [

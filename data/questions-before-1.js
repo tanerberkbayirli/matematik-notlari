@@ -9,7 +9,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Toplama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(23)_4 + (12)_4$ toplama işleminin sonucunu 4’lük tabanda bulunuz.',
     answer: '$(101)_4$',
     steps: [
@@ -24,7 +24,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Toplama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(66)_9 + (13)_9$ işleminin sonucunu 9’luk tabanda bulunuz.',
     answer: '$(80)_9$',
     steps: [
@@ -38,7 +38,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Toplama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(55)_6 + (55)_6 + (55)_6$ işleminin sonucunu 6’lık tabanda bulunuz.',
     answer: '$(253)_6$',
     steps: [
@@ -53,7 +53,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Çıkarma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(23)_5 - (14)_5$ çıkarma işleminin sonucunu bulunuz.',
     answer: '$(4)_5$',
     steps: [
@@ -67,7 +67,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Çıkarma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(302)_6 - (105)_6$ işleminin sonucunu 6’lık tabanda bulunuz.',
     answer: '$(153)_6$',
     steps: [
@@ -81,7 +81,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Çarpma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(14)_5 \\times (23)_5$ çarpma işleminin sonucunu 5’lik tabanda bulunuz.',
     answer: '$(432)_5$',
     steps: [
@@ -95,7 +95,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Çarpma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(32)_4 \\times (23)_4$ çarpma işleminin sonucunu 4’lük tabanda bulunuz.',
     answer: '$(2122)_4$',
     steps: [
@@ -109,7 +109,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Tabanlarda Çarpma',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(243)_5 \\times (24)_5$ işleminin sonucunu 5’lik tabanda bulunuz.',
     answer: '$(13042)_5$',
     steps: [
@@ -123,7 +123,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Taban Dönüşümleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(72)_{10}$ sayısını $7$’lik tabana çeviriniz.',
     answer: '$(132)_7$',
     steps: [
@@ -137,7 +137,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Taban Dönüşümleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(132)_7$ sayısını $10$’luk tabana çeviriniz.',
     answer: '$(72)_{10}$',
     steps: [
@@ -150,7 +150,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Taban Dönüşümleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
     prompt: '$(342)_5$ sayısının $10$’luk tabandaki değerini bulunuz.',
     answer: '$(97)_{10}$',
     steps: [
@@ -163,7 +163,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Diğer Sistemlere Geçiş',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
     prompt: '$(52)_6$ sayısını $2$’lik (ikili) tabana çeviriniz.',
     answer: '$(100000)_2$',
     steps: [
@@ -177,7 +177,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Diğer Sistemlere Geçiş',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
     prompt: '$(110)_2 - (101)_2$ işleminin sonucunu 2’lik tabanda bulunuz.',
     answer: '$(1)_2$',
     steps: [
@@ -190,7 +190,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Diğer Sistemlere Geçiş',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
     prompt: '$(443)_5 - (324)_5$ işleminin sonucunu 5’lik tabanda bulunuz.',
     answer: '$(114)_5$',
     steps: [
@@ -203,7 +203,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Diğer Sistemlere Geçiş',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
     prompt: '$(776)_8 - (367)_8$ işleminin sonucunu 8’lik tabanda bulunuz.',
     answer: '$(407)_8$',
     steps: [
@@ -216,7 +216,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Diğer Sistemlere Geçiş',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
     prompt: '$(444)_5 \\times (44)_5$ çarpma işleminin sonucunu 5’lik tabanda bulunuz.',
     answer: '$(43401)_5$',
     steps: [
@@ -230,7 +230,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'taban-aritmetigi',
     phase: 'before',
     section: 'Diğer Sistemlere Geçiş',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg',
     prompt: '$(1001)_2$ sayısını $5$’lik tabana çeviriniz.',
     answer: '$(14)_5$',
     steps: [
@@ -247,7 +247,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'İşlem Önceliği',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$41 - 17 + [25 - 3\\cdot (7 - 2)]$ işleminin sonucu kaçtır?',
     answer: '$34$',
     steps: [
@@ -261,7 +261,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Kesir Dönüşümleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$\\dfrac{50}{17}$ bileşik kesrini tam sayılı kesre çeviriniz.',
     answer: '$2\\dfrac{16}{17}$',
     steps: [
@@ -274,7 +274,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Kesir Dönüşümleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$10\\dfrac{3}{8}$ tam sayılı kesrini bileşik kesre çeviriniz.',
     answer: '$\\dfrac{83}{8}$',
     steps: [
@@ -286,7 +286,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Sıralama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$\\dfrac{1}{3},\\ \\dfrac{2}{5},\\ \\dfrac{3}{7},\\ \\dfrac{4}{9}$ kesirlerini küçükten büyüğe sıralayınız.',
     answer: '$\\dfrac{1}{3} < \\dfrac{2}{5} < \\dfrac{3}{7} < \\dfrac{4}{9}$',
     steps: [
@@ -300,7 +300,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Sıralama',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$-\\dfrac{7}{3},\\ \\dfrac{8}{5},\\ \\dfrac{9}{4},\\ -\\dfrac{11}{6}$ sayılarını küçükten büyüğe sıralayınız.',
     answer: '$-\\dfrac{7}{3} < -\\dfrac{11}{6} < \\dfrac{8}{5} < \\dfrac{9}{4}$',
     steps: [
@@ -314,7 +314,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Tam Sayılı Kesir İşlemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$2\\dfrac{1}{3} + 4\\dfrac{2}{5} + 3\\dfrac{1}{6} + 9\\dfrac{9}{10}$ işleminin sonucu kaçtır?',
     answer: '$19\\dfrac{4}{5}$',
     steps: [
@@ -328,7 +328,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Tam Sayılı Kesir İşlemleri',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$5\\dfrac{1}{4} - 7\\dfrac{2}{3}$ işleminin sonucunu bulunuz.',
     answer: '$-\\dfrac{29}{12}$',
     steps: [
@@ -341,7 +341,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Dört İşlem',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$5\\cdot 2\\dfrac{1}{2} + 3 : \\dfrac{3}{9} + 1\\dfrac{2}{3} + \\dfrac{1}{3}$ işleminin sonucunu bulunuz.',
     answer: '$\\dfrac{47}{2}$',
     steps: [
@@ -356,7 +356,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Dört İşlem',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$\\left(5 + \\dfrac{1}{2}\\right) : \\dfrac{11}{14} + 2\\dfrac{1}{3}\\cdot \\dfrac{1}{2} + \\dfrac{1}{4}\\cdot\\left(2\\dfrac{1}{3} - 1\\dfrac{1}{2}\\right)$ işleminin sonucu kaçtır?',
     answer: '$\\dfrac{67}{8} = 8\\dfrac{3}{8}$',
     note: 'Defterde sağ altta sonuç 257/24 yazılmıştır; ancak yazılı terimler adım adım hesaplandığında gerçek değer 201/24 = 67/8 çıkmaktadır.',
@@ -372,7 +372,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Karmaşık Parantezli İşlem',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
     prompt: '$\\left[\\left(3\\dfrac{1}{3} + 9\\dfrac{1}{4} - 6\\dfrac{5}{6}\\right) \\cdot \\left(4\\dfrac{3}{8} - 1\\dfrac{1}{4}\\right) : 3\\dfrac{1}{8} + 3\\dfrac{3}{4}\\right] : 6\\dfrac{1}{3} : 3\\dfrac{3}{4} + 5\\dfrac{1}{5}$ işleminin tamamını çözünüz.',
     answer: '$5\\dfrac{3}{5} = \\dfrac{28}{5}$',
     note: 'Defterde ilk iki parantez hesaplanıp devamı yarım kalmıştır; tüm adımlar aşağıda tamamlanmıştır.',
@@ -389,7 +389,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'rasyonel-sayilar',
     phase: 'before',
     section: 'Büyük Karmaşık İşlem',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (2).jpeg',
     prompt: '$\\left(3\\dfrac{1}{3} + 2\\dfrac{1}{2}\\right) : \\left(2\\dfrac{1}{2} - 1\\dfrac{1}{3}\\right) \\cdot \\left(4\\dfrac{3}{5} - 2\\dfrac{1}{3}\\right) : \\left(4\\dfrac{3}{5} + 2\\dfrac{1}{3}\\right) \\cdot 5\\dfrac{1}{5} : \\left[\\dfrac{1}{20} : \\left(\\dfrac{1}{7} - \\dfrac{1}{8}\\right) + 5\\dfrac{7}{10}\\right]$ işleminin sonucunu bulunuz.',
     answer: '$1$',
     steps: [
@@ -408,7 +408,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Ondalık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
     prompt: '$15\\dfrac{1}{2}$ kesrini ondalık sayı olarak yazınız.',
     answer: '$15{,}5$',
     steps: [
@@ -421,7 +421,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Ondalık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
     prompt: '$24\\dfrac{9}{25}$ kesrini ondalık sayı olarak yazınız.',
     answer: '$24{,}36$',
     steps: [
@@ -434,7 +434,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Devirli Ondalık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
     prompt: '$12\\dfrac{3}{7}$ kesrini devirli ondalık sayı olarak yazınız.',
     answer: '$12{,}\\overline{428571}$',
     steps: [
@@ -447,7 +447,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Devirli Ondalık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
     prompt: '$12{,}\\overline{428571}$ devirli ondalık sayısını rasyonel kesre çeviriniz.',
     answer: '$12\\dfrac{3}{7} = \\dfrac{87}{7}$',
     note: 'Defterde başlıkta sehven "irresyonel sayıya çevirelim" yazılmıştır; devirli ondalıklar rasyoneldir.',
@@ -462,7 +462,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Devirli Ondalık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '$5{,}\\overline{7}$ sayısını rasyonel kesir olarak yazınız.',
     answer: '$\\dfrac{52}{9}$',
     steps: [
@@ -474,7 +474,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Devirli Ondalık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '$15{,}\\overline{8}$ sayısını rasyonel kesir olarak yazınız.',
     answer: '$\\dfrac{143}{9}$',
     steps: [
@@ -486,7 +486,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Devirli Ondalık Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '$10{,}\\overline{17}$ sayısını rasyonel kesir olarak yazınız.',
     answer: '$\\dfrac{1007}{99}$',
     note: 'Defterde pay kısmında 1017 - 10 = 1007 ve paydada 99 yazıldıktan sonra en sağda sehven /9 yazılmıştır; doğrusu 1007/99’dur.',
@@ -500,7 +500,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Onluk Çözümleme',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '$31{,}2003$ sayısını $10$’un kuvvetleri cinsinden çözümleyiniz.',
     answer: '$3\\cdot 10^1 + 1\\cdot 10^0 + 2\\cdot 10^{-1} + 3\\cdot 10^{-4}$',
     steps: [
@@ -513,7 +513,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Onluk Çözümleme',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '$7\\cdot 10^3 + 2\\cdot 10^1 + 5\\cdot 10^{-2} + 3\\cdot 10^{-4}$ şeklinde çözümlenen sayıyı yazınız.',
     answer: '$7020{,}0503$',
     steps: [
@@ -527,7 +527,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '1) $2^7 \\cdot 5^4 \\cdot (-2)^3 \\cdot (-5)^6$ işleminin sonucunu bulunuz.',
     answer: '$-10^{10}$',
     steps: [
@@ -541,7 +541,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '2) $(1{,}2)^5 \\cdot 5^4 \\cdot (-1{,}2)^8 \\cdot (-5)^9$ işleminin sonucunu bulunuz.',
     answer: '$-6^{13}$',
     steps: [
@@ -555,7 +555,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '3) $(2^2)^2 - [(-3)^2]^2 - (-5^2)^2$ işleminin sonucunu bulunuz.',
     answer: '$-690$',
     steps: [
@@ -568,7 +568,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '4) $2^7 \\cdot (-1{,}5)^4 \\cdot (-2)^5 \\cdot (-1{,}5)^8$ işleminin sonucunu bulunuz.',
     answer: '$-3^{12}$',
     steps: [
@@ -582,7 +582,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '5) $3^{-2} + 2^{-3} + [(-2)^3]^{-1}$ işleminin sonucunu bulunuz.',
     answer: '$\\dfrac{1}{9}$',
     steps: [
@@ -595,7 +595,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '6) $(2^2)^3 - [(-2)^3]^2 + (-3)^{-2}$ işleminin sonucunu bulunuz.',
     answer: '$\\dfrac{1}{9}$',
     steps: [
@@ -608,7 +608,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '7) $[(0{,}5)^{-2}]^0 + [(3{,}5)^0]^4 - 2\\cdot[(0{,}1)^4]^0$ işleminin sonucunu bulunuz.',
     answer: '$0$',
     steps: [
@@ -621,7 +621,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '8) $\\dfrac{2^5 \\cdot 3^5 \\cdot 1{,}5}{(1{,}5)^6 \\cdot 4^5}$ işleminin sonucunu bulunuz.',
     answer: '$1$',
     steps: [
@@ -635,7 +635,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '9) $\\left(\\dfrac{3}{4}\\right)^{20} \\cdot \\left(\\dfrac{16}{9}\\right)^{10}$ işleminin sonucunu bulunuz.',
     answer: '$1$',
     steps: [
@@ -648,7 +648,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '10) $\\left(\\dfrac{2}{3}\\right)^{-3} - \\left(\\dfrac{5}{2}\\right)^{-2} + \\left(-\\dfrac{2}{5}\\right)^2$ işleminin sonucunu bulunuz.',
     answer: '$\\dfrac{27}{8}$',
     steps: [
@@ -661,7 +661,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '11) $\\left(5\\dfrac{1}{4}\\right)^0 + \\left[(1{,}2)^4 \\cdot \\left(\\dfrac{25}{36}\\right)^2\\right] : 6^2 - [(0{,}75)^2]^0$ işleminin sonucunu bulunuz.',
     answer: '$\\dfrac{1}{36}$',
     note: 'Defterde köşeli parantezin sonucu (6/5)^4 · (5/6)^4 = 1 bulunmuş fakat ": 6^2" bölmesi uygulanmadan 1 bırakılmıştır. Doğru işlem sırasıyla sonuç 1/36’dır.',
@@ -676,7 +676,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '12) $\\left(\\dfrac{1}{2}\\right)^3 + \\left(\\dfrac{3}{2}\\right)^4 - \\left[\\left(-\\dfrac{3}{2}\\right)^2\\right]^2$ işleminin sonucunu bulunuz.',
     answer: '$\\dfrac{1}{8}$',
     steps: [
@@ -689,7 +689,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '13) $\\left(\\dfrac{5}{7}\\right)^{20} \\cdot \\left(\\dfrac{16}{9}\\right)^{10} \\cdot \\left(\\dfrac{49}{4}\\right)^{10}$ işleminin sonucunu bulunuz.',
     answer: '$\\left(\\dfrac{10}{3}\\right)^{20}$',
     steps: [
@@ -702,7 +702,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '14) $\\dfrac{\\left(\\dfrac{2}{3}\\right)^3 \\cdot \\left(-\\dfrac{4}{9}\\right)^3 \\cdot \\left(\\dfrac{3}{5}\\right)^5}{2^{-9} \\cdot \\left(\\dfrac{3}{5}\\right)^4 \\cdot \\left(\\dfrac{1}{3}\\right)^{-10}}$ ifadesini sadeleştiriniz.',
     answer: '$-\\dfrac{2^{18}}{3^{18}\\cdot 5}$ (Defter notu: $-\\dfrac{2^{14}}{3^{14}\\cdot 5}$)',
     note: 'Görselde payda veya pay üslerindeki küçük rakam farkı nedeniyle defterde sonuç -2^{14}/(3^{14}·5) olarak bulunmuştur; adımlar görseldeki üslerle tam olarak gösterilmiştir.',
@@ -717,7 +717,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '15) $\\dfrac{4\\cdot 3^5 + 7\\cdot 3^5 - 10\\cdot 3^5}{2\\cdot 3^5 - 3^6}$ işleminin sonucunu bulunuz.',
     answer: '$-1$',
     steps: [
@@ -730,7 +730,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'ondalik-ve-uslu',
     phase: 'before',
     section: 'Üslü Sayılar (1–16)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg',
     prompt: '16) $\\dfrac{4\\cdot 5^7 - 5^8 + 11\\cdot 5^6}{7\\cdot 5^6 - 5^6}$ işleminin sonucunu bulunuz.',
     answer: '$1$',
     steps: [
@@ -747,7 +747,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Köklü Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'Kural Örneği: $3^{3/4}$ üslü ifadesini köklü biçimde yazınız.',
     answer: '$\\sqrt[4]{3^3} = \\sqrt[4]{27}$',
     steps: [
@@ -759,7 +759,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Köklü Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'a) $4^{1/2} \\cdot 9^{1/2} \\cdot 25^{1/2}$ işleminin sonucunu bulunuz.',
     answer: '$30$',
     steps: [
@@ -772,7 +772,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Köklü Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'c) $16^{3/4} \\cdot 32^{4/5} \\cdot 27^{2/3} \\cdot 81^{3/4}$ işleminin sonucunu üslü biçimde yazınız.',
     answer: '$2^7 \\cdot 3^5$',
     note: 'Defterde son adımda 3^2 · 3^3 çarpımı sehven 3^7 yazılmıştır; doğrusu 3^{2+3} = 3^5’tir.',
@@ -787,7 +787,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Köklü Sayılar (Derece Eşitleme)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'a) $\\sqrt{2},\\ \\sqrt[3]{3},\\ \\sqrt[6]{5}$ köklü sayılarını ortak kök derecesinde yazınız.',
     answer: '$\\sqrt[6]{8},\\ \\sqrt[6]{9},\\ \\sqrt[6]{5}$',
     steps: [
@@ -800,7 +800,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Köklü Sayılar (Sıralama)',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'c) $\\sqrt{6},\\ \\sqrt[4]{5},\\ \\sqrt[8]{15},\\ \\sqrt[16]{5}$ sayılarını büyükten küçüğe sıralayınız.',
     answer: '$\\sqrt{6} > \\sqrt[4]{5} > \\sqrt[8]{15} > \\sqrt[16]{5}$',
     steps: [
@@ -813,7 +813,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Köklü Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'a) $\\sqrt[4]{3} \\cdot \\sqrt[4]{27}$ işleminin sonucunu bulunuz.',
     answer: '$3$',
     steps: [
@@ -825,7 +825,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Köklü Sayılar',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'NOT Örneği: $2\\sqrt[4]{5}$ ifadesini tek kök içinde yazınız.',
     answer: '$\\sqrt[4]{80}$',
     steps: [
@@ -837,7 +837,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'İç İçe Kökler',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'e) $\\sqrt[3]{16\\sqrt[4]{8\\sqrt{2}}}$ (ve defter notundaki $\\sqrt[8]{2^8}$ / $\\sqrt[24]{2^{39}}$ dönüşümü) ifadesini tek kök içinde sadeleştiriniz.',
     answer: '$\\sqrt[8]{2^{13}}$',
     steps: [
@@ -852,7 +852,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Cebirsel İfadeler — Tanım Kümesi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'a) $\\dfrac{x+5}{x^2+1}$ ifadesinin tanım kümesini (T.K.) bulunuz.',
     answer: '$\\text{T.K.} = \\mathbb{R} = (-\\infty, +\\infty)$',
     steps: [
@@ -865,7 +865,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Cebirsel İfadeler — Tanım Kümesi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'b) $\\dfrac{3}{x}$ ifadesinin tanım kümesini bulunuz.',
     answer: '$\\text{T.K.} = \\mathbb{R} - \\{0\\}$',
     steps: [
@@ -877,7 +877,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Cebirsel İfadeler — Tanım Kümesi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'c, ç, d, e, f) Defterde verilen tanım kümesi sonuçları: c) $\\mathbb{R}-\\{a\\}$, ç) $\\mathbb{R}-\\{-3,3\\}$, d) $\\mathbb{R}-\\{5/2\\}$, e) $a-2b=-3 \\implies \\mathbb{R}$, f) $\\mathbb{R}-\\{a\\}$. Her birinin paydayı sıfır yapan mantığını açıklayınız.',
     answer: 'Paydayı $0$ yapan kökler kümeden çıkarılır ($a$, $\\pm 3$, $5/2$).',
     steps: [
@@ -892,7 +892,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Cebirsel İfadeler — Tanım Kümesi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'g) $\\dfrac{\\sqrt{x-4}}{\\sqrt[3]{2a+b}}$ (payı çift dereceli köklü) ifadesinin $x$ değişkenine göre tanım kümesini bulunuz.',
     answer: '$x \\ge 4$, yani $[4, \\infty)$',
     steps: [
@@ -906,7 +906,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Ortak Çarpan Parantezi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'a) $xy - 3x$ ifadesini ortak çarpan parantezine alınız.',
     answer: '$x(y - 3)$',
     steps: [
@@ -918,7 +918,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Ortak Çarpan Parantezi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'b) $2xy^2 - 4x^2y^3$ ifadesini ortak çarpan parantezine alınız.',
     answer: '$2xy^2(1 - 2xy)$',
     steps: [
@@ -931,7 +931,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Ortak Çarpan Parantezi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'c) $3\\sqrt{x}\\,y^2 + 2xy^3 - 4x^2y^4$ ifadesini ortak çarpan parantezine alınız.',
     answer: '$x^{1/2}y^2(3 + 2x^{1/2}y - 4x^{3/2}y^2)$',
     steps: [
@@ -944,7 +944,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Ortak Çarpan Parantezi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'ç) $\\dfrac{ax}{b} - \\dfrac{a^2x^3c}{b^2} + \\dfrac{3axc^3}{2b^2}$ ifadesini $\\dfrac{ax}{b}$ ortak parantezine alınız.',
     answer: '$\\dfrac{ax}{b}\\left(1 - \\dfrac{ax^2c}{b} + \\dfrac{3c^3}{2b}\\right)$',
     note: 'Defterde son terimin paydasında sehven 2b^2 yazılmıştır; b dışarı alındığı için 2b kalmalıdır.',
@@ -958,7 +958,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'koklu-ve-tanim-kumesi',
     phase: 'before',
     section: 'Ortak Çarpan Parantezi',
-    sourceImage: 'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+    sourceImage: 'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
     prompt: 'd) $\\dfrac{x}{a+b} - \\dfrac{2xy}{3(a+b)} + \\dfrac{x^3y^2}{c(a+b)^2}$ ifadesini ortak paranteze alınız.',
     answer: '$\\dfrac{x}{a+b}\\left(1 - \\dfrac{2y}{3} + \\dfrac{x^2y^2}{c(a+b)}\\right)$',
     steps: [

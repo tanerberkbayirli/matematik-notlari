@@ -2,14 +2,14 @@ window.MATH_QUESTIONS = window.MATH_QUESTIONS || [];
 
 window.MATH_QUESTIONS.push(
   // =========================================================
-  // 9. TRİGONOMETRİ — SINAV SONRASI (23.11.2026)
+  // 9. TRİGONOMETRİ — VİZE SONRASI (23.11.2026)
   // =========================================================
   {
     id: 'tr-01',
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Dik Üçgende Trigonometrik Oranlar',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38.jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38.jpeg',
     prompt: 'Örnek 1: $0 < x < 90^\\circ$ ve $\\sin x = \\dfrac{12}{13}$ ise $\\cos x$, $\\tan x$, $\\cot x$, $\\sec x$ ve $\\csc x$ değerlerini bulunuz.',
     answer: '$\\cos x = \\dfrac{5}{13},\\ \\tan x = \\dfrac{12}{5},\\ \\cot x = \\dfrac{5}{12},\\ \\sec x = \\dfrac{13}{5},\\ \\csc x = \\dfrac{13}{12}$',
     steps: [
@@ -22,7 +22,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Birim Çember',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38.jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38.jpeg',
     prompt: 'Örnek 2: Aşağıdaki noktalardan hangileri birim çember üzerindedir?<br>$A(0,\\ 1),\\quad B\\left(\\dfrac{1}{\\sqrt{2}},\\ -\\dfrac{1}{\\sqrt{2}}\\right),\\quad C\\left(\\dfrac{3}{4},\\ \\dfrac{\\sqrt{7}}{4}\\right)$',
     answer: '$A$, $B$ ve $C$ noktalarının <strong>üçü de</strong> birim çember üzerindedir.',
     steps: [
@@ -37,7 +37,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Birim Çemberde Açı Yönü',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
     prompt: 'Örnek 3: Birim çemberde $2.$ bölgede $-x$ ekseniyle $50^\\circ$ (veya $+y$ ekseniyle $40^\\circ$) açı yapan bitim noktasının koordinatlarını bulunuz.',
     answer: '$(\\cos 130^\\circ,\\ \\sin 130^\\circ)$',
     steps: [
@@ -50,7 +50,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Tanım Aralığı Kuralı',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
     prompt: 'Not Sorusu: $\\sin x = \\dfrac{4}{3}$ verildiğinde $\\cos x = ?$ ve $\\tan x = ?$ değerleri bulunabilir mi? Açıklayınız.',
     answer: '<strong>Bulunamaz!</strong> (Çünkü $-1 \\le \\sin x \\le 1$ olmalıdır.)',
     steps: [
@@ -63,7 +63,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Bölge İşaretleri — Sinüs',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
     prompt: '$\\sin 10^\\circ$, $\\sin 120^\\circ$, $\\sin 250^\\circ$ ve $\\sin 310^\\circ$ değerlerinin işaretlerini bulunuz.',
     answer: '$\\sin 10^\\circ (+),\\ \\sin 120^\\circ (+),\\ \\sin 250^\\circ (-),\\ \\sin 310^\\circ (-)$',
     steps: [
@@ -76,7 +76,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Bölge İşaretleri — Kosinüs',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
     prompt: '$\\cos 10^\\circ$, $\\cos 120^\\circ$, $\\cos 250^\\circ$ ve $\\cos 310^\\circ$ değerlerinin işaretlerini bulunuz.',
     answer: '$\\cos 10^\\circ (+),\\ \\cos 120^\\circ (-),\\ \\cos 250^\\circ (-),\\ \\cos 310^\\circ (+)$',
     steps: [
@@ -88,7 +88,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Bölge İşaretleri — Tanjant & Kotanjant',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
     prompt: '$\\tan 10^\\circ,\\ \\tan 120^\\circ,\\ \\tan 250^\\circ,\\ \\tan 310^\\circ$ ve $\\cot 10^\\circ,\\ \\cot 120^\\circ,\\ \\cot 250^\\circ,\\ \\cot 310^\\circ$ değerlerinin işaretlerini bulunuz.',
     answer: '$10^\\circ (+),\\ 120^\\circ (-),\\ 250^\\circ (+),\\ 310^\\circ (-)$ (hem $\\tan$ hem $\\cot$ için)',
     steps: [
@@ -101,7 +101,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Özdeşlikler (a–f)',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
     prompt: 'a) $\\dfrac{\\tan x}{\\sec x}$ ifadesini en sade şekline getiriniz.',
     answer: '$\\sin x$',
     steps: [
@@ -114,7 +114,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Özdeşlikler (a–f)',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
     prompt: 'b) $\\dfrac{1 - \\cos^2 x}{\\sin x}$ ifadesini sadeleştiriniz.',
     answer: '$\\sin x$',
     steps: [
@@ -127,7 +127,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Özdeşlikler (a–f)',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
     prompt: 'c) $\\dfrac{\\cos^2 x}{1 - \\sin x} - \\sin x$ ifadesini sadeleştiriniz.',
     answer: '$1$',
     steps: [
@@ -141,7 +141,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Özdeşlikler (a–f)',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
     prompt: 'd) $(1 + \\tan^2 x)(1 - \\sin^2 x)$ çarpımının sonucunu bulunuz.',
     answer: '$1$',
     steps: [
@@ -154,7 +154,7 @@ window.MATH_QUESTIONS.push(
     topicId: 'trigonometri',
     phase: 'after',
     section: 'Özdeşlikler (a–f)',
-    sourceImage: 'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
+    sourceImage: 'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg',
     prompt: 'f) $\\dfrac{1 + \\cos x}{\\sin x} + \\dfrac{\\sin x}{1 + \\cos x}$ işlemini en sade haline getiriniz.',
     answer: '$2\\csc x$ ($= \\dfrac{2}{\\sin x}$)',
     steps: [

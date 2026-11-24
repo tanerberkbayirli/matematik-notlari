@@ -8,8 +8,8 @@ window.MATH_TOPICS = [
     subtitle: 'Sayı sistemleri, taban dönüşümleri ve dört işlem',
     icon: '01',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (1).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg'
     ]
   },
   {
@@ -21,9 +21,9 @@ window.MATH_TOPICS = [
     subtitle: 'İşlem önceliği, kesir sıralama ve çok adımlı işlemler',
     icon: '02',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (2).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34.jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35 (2).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.35.jpeg'
     ]
   },
   {
@@ -35,8 +35,8 @@ window.MATH_TOPICS = [
     subtitle: 'Devirli kesirler, onluk çözümleme ve üslü ifadeler',
     icon: '03',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (3).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (2).jpeg'
     ]
   },
   {
@@ -48,7 +48,7 @@ window.MATH_TOPICS = [
     subtitle: 'Üslü-köklü dönüşümler, iç içe kökler ve cebirsel tanım kümeleri',
     icon: '04',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg'
     ]
   },
   {
@@ -60,10 +60,10 @@ window.MATH_TOPICS = [
     subtitle: 'Tam kareye tamamlama, sadeleştirme, eşlenik ve pratik hesap',
     icon: '05',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (1).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (1).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg'
     ]
   },
   {
@@ -75,8 +75,8 @@ window.MATH_TOPICS = [
     subtitle: 'Bölüm 2.5 — Toplama, çarpma, uzun bölme ve kalan bulma',
     icon: '06',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (4).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33 (4).jpeg'
     ]
   },
   {
@@ -88,8 +88,8 @@ window.MATH_TOPICS = [
     subtitle: '1. ve 2. derece denklemler, mutlak değer ve Bölüm 3.2 problemleri',
     icon: '07',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (2).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.33.jpeg'
     ]
   },
   {
@@ -101,8 +101,8 @@ window.MATH_TOPICS = [
     subtitle: 'Bölüm 3.3 iki bilinmeyenli sistemler ve Bölüm 3.4 eşitsizlikler',
     icon: '08',
     sourceImages: [
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
-      'sınav öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg'
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (3).jpeg',
+      'vize öncesi/WhatsApp Image 2026-11-16 at 21.40.34 (5).jpeg'
     ]
   },
   {
@@ -114,9 +114,9 @@ window.MATH_TOPICS = [
     subtitle: 'Dik üçgen, birim çember, bölge işaretleri ve özdeşlikler',
     icon: '09',
     sourceImages: [
-      'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38.jpeg',
-      'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
-      'sınrav sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg'
+      'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38.jpeg',
+      'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (2).jpeg',
+      'vize sonrası/WhatsApp Image 2026-11-23 at 12.38.38 (1).jpeg'
     ]
   }
 ];
