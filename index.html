@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matematik Notları — Sınav Öncesi &amp; Sonrası</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar-left">
+        <button id="menuToggle" class="icon-btn mobile-only" aria-label="Menü">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="4" y1="7" x2="20" y2="7" />
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="17" x2="20" y2="17" />
+          </svg>
+        </button>
+        <div class="brand">
+          <span class="brand-mark">∑</span>
+          <span class="brand-title">Matematik Notları</span>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="11" cy="11" r="7.5" />
+          <line x1="20.5" y1="20.5" x2="16.5" y2="16.5" />
+        </svg>
+        <input id="searchInput" type="search" placeholder="Soru veya konu ara..." autocomplete="off" />
+      </div>
+
+      <button id="themeToggle" class="icon-btn" title="Tema değiştir" aria-label="Tema değiştir">
+        <span id="themeIcon">🌙</span>
+      </button>
+    </header>
+
+    <div class="layout">
+      <aside id="sidebar" class="sidebar">
+        <nav id="topicNav" class="topic-nav" aria-label="Konular"></nav>
+      </aside>
+      <div id="sidebarBackdrop" class="sidebar-backdrop hidden"></div>
+
+      <main id="mainContent" class="main"></main>
+    </div>
+  </div>
+
+  <!-- Defter Görseli Modalı -->
+  <div id="imageModal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card">
+      <div class="modal-head">
+        <span id="modalTitle">Defter Sayfası</span>
+        <button id="closeModalBtn" class="icon-btn" aria-label="Kapat">✕</button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImg" src="" alt="Defter görseli" />
+      </div>
+    </div>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script src="data/topics-meta.js"></script>
+  <script src="data/lessons.js"></script>
+  <script src="data/questions-before-1.js"></script>
+  <script src="data/questions-before-2.js"></script>
+  <script src="data/questions-after.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
