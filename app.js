@@ -17,6 +17,7 @@
   const searchInput = document.getElementById('searchInput');
   const themeToggle = document.getElementById('themeToggle');
   const themeIcon = document.getElementById('themeIcon');
+  const scrollProgress = document.getElementById('scrollProgress');
   const sidebar = document.getElementById('sidebar');
   const sidebarBackdrop = document.getElementById('sidebarBackdrop');
   const menuToggle = document.getElementById('menuToggle');
@@ -44,7 +45,21 @@
       localStorage.setItem(THEME_KEY, 'dark');
       themeIcon.textContent = '☀️';
     }
+    themeToggle.classList.remove('is-spinning');
+    void themeToggle.offsetWidth;
+    themeToggle.classList.add('is-spinning');
   });
+
+  function updateScrollProgress() {
+    if (!scrollProgress) return;
+    const doc = document.documentElement;
+    const scrollable = doc.scrollHeight - window.innerHeight;
+    const pct = scrollable > 0 ? Math.min(100, Math.max(0, (window.scrollY / scrollable) * 100)) : 0;
+    scrollProgress.style.width = `${pct}%`;
+  }
+
+  window.addEventListener('scroll', updateScrollProgress, { passive: true });
+  window.addEventListener('resize', updateScrollProgress, { passive: true });
 
   // Mobil menü
   function closeSidebar() {
@@ -138,12 +153,13 @@
   }
 
   // Soru Kartı
-  function renderQuestionCard(q, indexLabel) {
+  function renderQuestionCard(q, indexLabel, cardIndex = 0, isStatic = false) {
     const showAns = state.openAnswers.has(q.id);
     const showSteps = state.openSteps.has(q.id);
+    const hasOpen = showAns || showSteps;
 
     return `
-      <article class="q-card">
+      <article class="q-card ${hasOpen ? 'has-open' : ''} ${isStatic ? 'is-static' : ''}" data-qid="${q.id}" data-label="${indexLabel.replace(/"/g, '&quot;')}" style="--i: ${cardIndex}">
         <div class="q-meta">${indexLabel}</div>
         <div class="q-prompt">${q.prompt}</div>
 
@@ -169,7 +185,7 @@
         ${showSteps ? `
           <div class="steps-list">
             ${q.steps.map((s, i) => `
-              <div class="step-item">
+              <div class="step-item" style="--s: ${i}">
                 <span class="step-badge">${i + 1}</span>
                 <div class="step-content">
                   <strong>${s.title}</strong>
@@ -202,14 +218,15 @@
           ${matches.length
             ? matches.map((q, i) => {
                 const topic = TOPICS.find((t) => t.id === q.topicId);
-                return renderQuestionCard(q, `${i + 1} · ${topic?.title || ''} · ${q.section}`);
+                return renderQuestionCard(q, `${i + 1} · ${topic?.title || ''} · ${q.section}`, i);
               }).join('')
             : '<div class="lesson-block">Eşleşen soru bulunamadı.</div>'
           }
         </div>
       `;
-      attachQuestionEvents();
+      attachQuestionEvents(mainContent);
       renderMath(mainContent);
+      updateScrollProgress();
       return;
     }
 
@@ -247,22 +264,23 @@
       });
 
       let counter = 1;
+      let cardIdx = 0;
       bodyHtml = groups.map((g) => `
         <div class="section-title">${g.section}</div>
         <div class="q-list">
-          ${g.items.map((q) => renderQuestionCard(q, `Soru ${counter++}`)).join('')}
+          ${g.items.map((q) => renderQuestionCard(q, `Soru ${counter++}`, cardIdx++)).join('')}
         </div>
       `).join('');
     } else {
       bodyHtml = `
         <div class="callout-tip">${lesson.summary}</div>
-        ${lesson.sections.map((sec) => `
-          <section class="lesson-block">
+        ${lesson.sections.map((sec, idx) => `
+          <section class="lesson-block" style="--i: ${idx}">
             <h3>${sec.title}</h3>
             <div>${sec.body}</div>
           </section>
         `).join('')}
-        <section class="lesson-block">
+        <section class="lesson-block" style="--i: ${lesson.sections.length}">
           <h3>Defter Fotoğrafları</h3>
           <div class="source-links">
             ${topic.sourceImages.map((src, i) => `
@@ -288,26 +306,40 @@
       btn.addEventListener('click', () => openModal(btn.dataset.src, btn.dataset.title));
     });
 
-    attachQuestionEvents();
+    attachQuestionEvents(mainContent);
     renderMath(mainContent);
+    updateScrollProgress();
   }
 
-  function attachQuestionEvents() {
-    mainContent.querySelectorAll('[data-ans]').forEach((btn) => {
+  function updateSingleQuestionCard(cardEl, qId) {
+    const q = QUESTIONS.find((item) => item.id === qId);
+    if (!cardEl || !q) return;
+    const label = cardEl.dataset.label || '';
+    const wrapper = document.createElement('div');
+    wrapper.innerHTML = renderQuestionCard(q, label, 0, true).trim();
+    const newCard = wrapper.firstElementChild;
+    cardEl.replaceWith(newCard);
+    attachQuestionEvents(newCard);
+    renderMath(newCard);
+    updateScrollProgress();
+  }
+
+  function attachQuestionEvents(scope = mainContent) {
+    scope.querySelectorAll('[data-ans]').forEach((btn) => {
       btn.addEventListener('click', () => {
         const id = btn.dataset.ans;
         if (state.openAnswers.has(id)) state.openAnswers.delete(id);
         else state.openAnswers.add(id);
-        renderMain();
+        updateSingleQuestionCard(btn.closest('.q-card'), id);
       });
     });
 
-    mainContent.querySelectorAll('[data-steps]').forEach((btn) => {
+    scope.querySelectorAll('[data-steps]').forEach((btn) => {
       btn.addEventListener('click', () => {
         const id = btn.dataset.steps;
         if (state.openSteps.has(id)) state.openSteps.delete(id);
         else state.openSteps.add(id);
-        renderMain();
+        updateSingleQuestionCard(btn.closest('.q-card'), id);
       });
     });
   }
