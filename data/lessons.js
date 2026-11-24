@@ -506,7 +506,7 @@ window.MATH_LESSONS = {
   },
 
   'trigonometri': {
-    summary: 'Sınav sonrası (23.11.2026) işlenen Trigonometri konusu: Dik üçgende 6 trigonometrik fonksiyon, birim çember, saat yönünün tersinde açı okuma, tanım aralığı, Bütün Sınıf Kara Tahtada Coştu işaret tablosu ve özdeşlik sadeleştirme.',
+    summary: 'Vize sonrası (23.11.2026) işlenen Trigonometri konusu: Dik üçgende 6 trigonometrik fonksiyon, birim çember, saat yönünün tersinde açı okuma, tanım aralığı, Bütün Sınıf Kara Tahtada Coştu işaret tablosu ve özdeşlik sadeleştirme.',
     sections: [
       {
         title: '1. Dik Üçgende 6 Trigonometrik Fonksiyon',

@@ -206,9 +206,9 @@
 
     topicNav.innerHTML = `
       <div class="nav-indicator" aria-hidden="true"></div>
-      <div class="nav-group">Sınav Öncesi</div>
+      <div class="nav-group">Vize Öncesi</div>
       ${before.map(itemHtml).join('')}
-      <div class="nav-group">Sınav Sonrası</div>
+      <div class="nav-group">Vize Sonrası</div>
       ${after.map(itemHtml).join('')}
     `;
 

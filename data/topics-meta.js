@@ -2,7 +2,7 @@ window.MATH_TOPICS = [
   {
     id: 'taban-aritmetigi',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 1,
     title: 'Taban Aritmetiği',
     subtitle: 'Sayı sistemleri, taban dönüşümleri ve dört işlem',
@@ -15,7 +15,7 @@ window.MATH_TOPICS = [
   {
     id: 'rasyonel-sayilar',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 2,
     title: 'Rasyonel Sayılar',
     subtitle: 'İşlem önceliği, kesir sıralama ve çok adımlı işlemler',
@@ -29,7 +29,7 @@ window.MATH_TOPICS = [
   {
     id: 'ondalik-ve-uslu',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 3,
     title: 'Ondalık, Devirli & Üslü Sayılar',
     subtitle: 'Devirli kesirler, onluk çözümleme ve üslü ifadeler',
@@ -42,7 +42,7 @@ window.MATH_TOPICS = [
   {
     id: 'koklu-ve-tanim-kumesi',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 4,
     title: 'Köklü Sayılar & Tanım Kümesi',
     subtitle: 'Üslü-köklü dönüşümler, iç içe kökler ve cebirsel tanım kümeleri',
@@ -54,7 +54,7 @@ window.MATH_TOPICS = [
   {
     id: 'ozdeslik-carpanlara-ayirma',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 5,
     title: 'Özdeşlikler & Çarpanlara Ayırma',
     subtitle: 'Tam kareye tamamlama, sadeleştirme, eşlenik ve pratik hesap',
@@ -69,7 +69,7 @@ window.MATH_TOPICS = [
   {
     id: 'polinomlar',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 6,
     title: 'Polinomlar & Polinomda Bölme',
     subtitle: 'Bölüm 2.5 — Toplama, çarpma, uzun bölme ve kalan bulma',
@@ -82,7 +82,7 @@ window.MATH_TOPICS = [
   {
     id: 'denklemler-mutlak-problemler',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 7,
     title: 'Denklemler, Mutlak Değer & Problemler',
     subtitle: '1. ve 2. derece denklemler, mutlak değer ve Bölüm 3.2 problemleri',
@@ -95,7 +95,7 @@ window.MATH_TOPICS = [
   {
     id: 'sistemler-ve-esitsizlikler',
     phase: 'before',
-    phaseLabel: 'Sınav Öncesi',
+    phaseLabel: 'Vize Öncesi',
     order: 8,
     title: 'Denklem Sistemleri & Eşitsizlikler',
     subtitle: 'Bölüm 3.3 iki bilinmeyenli sistemler ve Bölüm 3.4 eşitsizlikler',
@@ -108,7 +108,7 @@ window.MATH_TOPICS = [
   {
     id: 'trigonometri',
     phase: 'after',
-    phaseLabel: 'Sınav Sonrası',
+    phaseLabel: 'Vize Sonrası',
     order: 9,
     title: 'Trigonometri',
     subtitle: 'Dik üçgen, birim çember, bölge işaretleri ve özdeşlikler',
